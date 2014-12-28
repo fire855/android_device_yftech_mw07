@@ -15,5 +15,7 @@ PRODUCT_MODEL := mw07
 PRODUCT_MANUFACTURER := yftech
 
 PRODUCT_COPY_FILES += \
-device/yftech/mw07/sun4i-ts.ko:recovery/root/sun4i-ts.ko
+device/yftech/mw07/sun4i-ts.ko:recovery/root/sun4i-ts.ko \
+device/yftech/mw07/ueventd.sun4i.rc:recovery/root/ueventd.sun4i.rc \
+device/yftech/mw07/init.sun4i.usb.rc:recovery/root/init.sun4i.usb.rc \
 
