@@ -13,3 +13,7 @@ PRODUCT_DEVICE := mw07
 PRODUCT_BRAND := Arnova
 PRODUCT_MODEL := mw07
 PRODUCT_MANUFACTURER := yftech
+
+PRODUCT_COPY_FILES += \
+device/yftech/mw07/sun4i-ts.ko:recovery/root/sun4i-ts.ko
+
