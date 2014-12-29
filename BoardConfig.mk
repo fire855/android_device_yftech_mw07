@@ -1,5 +1,5 @@
 # inherit from the proprietary version
--include vendor/yftech/mw07/BoardConfigVendor.mk
+-include vendor/yftech/suni4/BoardConfigVendor.mk
 
 #USE_CAMERA_STUB := true
 
@@ -9,7 +9,7 @@ TARGET_BOARD_PLATFORM := unknown
 TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
 TARGET_CPU_VARIANT := cortex-a8
-TARGET_BOOTLOADER_BOARD_NAME := mw07
+TARGET_BOOTLOADER_BOARD_NAME := suni4
 TARGET_ARCH_VARIANT := armv7-a-neon
 TARGET_ARCH_VARIANT_CPU := cortex-a8
 
