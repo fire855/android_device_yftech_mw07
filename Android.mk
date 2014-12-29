@@ -1,3 +1,3 @@
-ifeq ($(TARGET_BOOTLOADER_BOARD_NAME),mw07)
+ifeq ($(TARGET_BOOTLOADER_BOARD_NAME),sun4i)
     include $(all-subdir-makefiles)
 endif

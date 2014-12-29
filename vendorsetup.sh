@@ -1,1 +1,1 @@
-add_lunch_combo omni_mw07-userdebug
+add_lunch_combo omni_sun4i-userdebug

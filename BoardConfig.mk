@@ -34,9 +34,9 @@ TW_INTERNAL_STORAGE_PATH := "/emmc"
 TW_INTERNAL_STORAGE_MOUNT_POINT := "emmc"
 TW_EXTERNAL_STORAGE_PATH := "/sdcard"
 TW_EXTERNAL_STORAGE_MOUNT_POINT := "sdcard"
-BOARD_UMS_LUNFILE := "/sys/devices/platform/msm_hsusb/gadget/lun0/file
-TARGET_PREBUILT_KERNEL := device/yftech/mw07/kernel
+BOARD_UMS_LUNFILE := "/sys/devices/platform/msm_hsusb/gadget/lun0/file"
+TARGET_PREBUILT_KERNEL := device/yftech/sun4i/kernel
 BOARD_HAS_NO_SELECT_BUTTON := true
 BOARD_HAS_LARGE_FILESYSTEM := true
-TARGET_RECOVERY_FSTAB := device/yftech/mw07/recovery.fstab
+TARGET_RECOVERY_FSTAB := device/yftech/sun4i/recovery.fstab
 

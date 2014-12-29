@@ -1,0 +1,2 @@
+on init
+    insmod /sun4i-ts.ko
