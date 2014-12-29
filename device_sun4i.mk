@@ -1,7 +1,7 @@
 
-#DEVICE_PACKAGE_OVERLAYS += device/yftech/mw07/overlay
+#DEVICE_PACKAGE_OVERLAYS += device/yftech/sun4i/overlay
 
-LOCAL_PATH := device/yftech/mw07
+LOCAL_PATH := device/yftech/sun4i
 ifeq ($(TARGET_PREBUILT_KERNEL),)
 	LOCAL_KERNEL := $(LOCAL_PATH)/kernel
 else
