@@ -9,7 +9,7 @@ $(call inherit-product, device/yftech/sun4i/device_sun4i.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := omni_sun4i
-PRODUCT_DEVICE := mw07
+PRODUCT_DEVICE := sun4i
 PRODUCT_BRAND := Arnova
 PRODUCT_MODEL := sun4i
 PRODUCT_MANUFACTURER := yftech
