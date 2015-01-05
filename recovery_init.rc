@@ -17,7 +17,9 @@ on init
     mkdir /system
     mkdir /data
     mkdir /cache
+    mkdir /bootloader
     mount /tmp /tmp tmpfs
+    #mount vfat /dev/block/nandi /emmc
 
 on boot
 
